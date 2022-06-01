@@ -1,0 +1,27 @@
+#profilegrid {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 300px);
+}
+
+img {
+margin-left: 50px;
+margin-right: 50px;
+width: 100px;
+height: 100px;
+size: 20px;
+border-radius: 50%;
+}
+
+#customer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.name {
+    text-transform: capitalize;
+}
